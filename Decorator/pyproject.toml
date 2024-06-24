@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "decorator"
+version = "0.1.0"
+description = ""
+authors = ["bytesontherocks <bytesontherocks@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^8.2.2"
+mypy = "^1.7.1"
+ruff = "^0.1.6"
+pre-commit = "^3.5.0"
+pytest-cov = "^5.0.0"
+radon = "^6.0.1"
+
+[tool.poetry.scripts]
+start = "main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
